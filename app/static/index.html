@@ -1,0 +1,32 @@
+
+<html>
+    <head><title>Pytorch Style Transfer</title></head>
+    <body><form action="/transfer" method="POST" enctype="multipart/form-data">
+        <b>Style Reference: <input name="style" type="file" /></b><br/>
+        <b>Content Image: <input name="content" type="file" /></b><br/>
+        <input type="submit" name="doit" />
+    </form>
+
+<h2>Style References</h2>
+<table border="1">
+  <tr>
+   <td>Mondrian</td>
+   <td><img src="/static/mondrian.jpg" /></td>
+  </tr>
+  <tr>
+   <td>Dali</td>
+   <td><img src="/static/dali.jpg" /></td>
+  </tr>
+  <tr>
+   <td>Picasso</td>
+   <td><img src="/static/picasso.jpg" /></td>
+  </tr>
+  <tr>
+   <td>Van Gogh</td>
+   <td><img src="/static/vangogh.jpg" /></td>
+  </tr>
+</table>
+
+</body>
+
+</html>
